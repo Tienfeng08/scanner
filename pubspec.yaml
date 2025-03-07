@@ -1,0 +1,13 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  camera: ^0.10.5+4  # For real-time camera feed
+  google_mlkit_text_recognition: ^0.10.0  # For emoji OCR detection
+  image: ^4.1.7  # For image processing
+  flutter_overlay_window: ^0.3.1  # To display hints over the game screen
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
