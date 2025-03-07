@@ -10,15 +10,15 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  camera: ^0.10.5+4          # For real-time camera feed
-  google_mlkit_text_recognition: ^0.10.0  # For text recognition
-  image: ^4.1.7              # For any additional image processing (if needed)
-  flutter_overlay_window: ^0.3.1  # To display hints or overlays
+  camera: ^0.10.5+4                    # For real-time camera feed
+  google_mlkit_text_recognition: ^0.10.0 # For text recognition
+  image: ^4.1.7                        # For image processing (if needed)
+  flutter_overlay_window: ^0.3.1       # To display overlays (requires additional setup)
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^2.0.0                # Use a version compatible with Dart 2.19.0
 
 flutter:
   uses-material-design: true
